@@ -25,10 +25,13 @@ const Hero = () => {
       
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-            Transform Your Business with
-            <span className="bg-gradient-to-r from-orange-400 to-orange-500 bg-clip-text text-transparent"> Valliento</span>
-          </h1>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-6 leading-snug text-center px-4 mt-24">
+  Transform Your Business with
+  <span className="block sm:inline bg-gradient-to-r from-orange-400 to-orange-500 bg-clip-text text-transparent">
+    {' '}Valliento
+  </span>
+</h1>
+
           
           <p className="text-xl md:text-2xl text-blue-100 mb-8 leading-relaxed">
             Expert software development and comprehensive IT support solutions 
